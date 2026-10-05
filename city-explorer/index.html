@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Explorer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 1. header cu numele site-ului și nav cu trei legături interne -->
+  <header class="site-header">
+    <h1>City Explorer</h1>
+    <nav class="menu">
+      <a href="#destinatii">Destinații</a>
+      <a href="#planifica">Planifică</a>
+      <a href="#recomandari">Recomandări</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 2. secțiunea Destinații: cinci article, fiecare cu oraș, țară, descriere, durată -->
+    <section id="destinatii">
+      <h2>Destinații</h2>
+      <div class="cards">
+        <article class="card featured">
+          <h3>Lisabona</h3>
+          <p class="tara">Portugalia</p>
+          <p>Cartiere pe dealuri, tramvaie galbene și apusuri peste râul Tejo.</p>
+          <p class="durata">Durată recomandată: 4 zile</p>
+        </article>
+        <article class="card">
+          <h3>Roma</h3>
+          <p class="tara">Italia</p>
+          <p>Colosseumul, Vaticanul și cea mai bună pizza la fiecare colț de stradă.</p>
+          <p class="durata">Durată recomandată: 5 zile</p>
+        </article>
+        <article class="card">
+          <h3>Barcelona</h3>
+          <p class="tara">Spania</p>
+          <p>Clădirile lui Gaudí, plaja din oraș și străduțele din Cartierul Gotic.</p>
+          <p class="durata">Durată recomandată: 4 zile</p>
+        </article>
+        <article class="card">
+          <h3>Praga</h3>
+          <p class="tara">Cehia</p>
+          <p>Podul Carol, castelul de pe deal și un centru vechi ca din povești.</p>
+          <p class="durata">Durată recomandată: 3 zile</p>
+        </article>
+        <article class="card">
+          <h3>Viena</h3>
+          <p class="tara">Austria</p>
+          <p>Palate imperiale, muzee mari și cafenele cu tradiție de sute de ani.</p>
+          <p class="durata">Durată recomandată: 3 zile</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 3. secțiunea Planifică: formular cu nume, destinație, număr de zile, buton -->
+    <section id="planifica">
+      <h2>Planifică</h2>
+      <form class="form">
+        <label for="name">Nume</label>
+        <input id="name" name="name" type="text">
+
+        <label for="destination">Destinație</label>
+        <select id="destination" name="destination">
+          <option value="">Alege...</option>
+          <option value="Lisabona">Lisabona</option>
+          <option value="Roma">Roma</option>
+          <option value="Barcelona">Barcelona</option>
+          <option value="Praga">Praga</option>
+          <option value="Viena">Viena</option>
+        </select>
+
+        <label for="days">Număr de zile</label>
+        <input id="days" name="days" type="number" min="1">
+
+        <button type="submit">Planifică excursia</button>
+      </form>
+    </section>
+
+    <!-- 4. secțiunea Recomandări: listă cu minimum trei sfaturi -->
+    <section id="recomandari">
+      <h2>Recomandări</h2>
+      <ul>
+        <li>Rezervă cazarea cu cel puțin o lună înainte.</li>
+        <li>Cumpără un abonament de transport pentru toate zilele.</li>
+        <li>Vizitează obiectivele mari dimineața, înainte de aglomerație.</li>
+        <li>Păstrează o copie a actelor pe telefon.</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- 5. footer cu numele autorului și anul -->
+  <footer class="site-footer">Achim Andrei Alexandru, 2026</footer>
+</body>
+</html>
