@@ -7,10 +7,13 @@ Lucrările de laborator pentru disciplina Tehnologii Web.
 | Laborator | Folder | Descriere |
 |-----------|--------|-----------|
 | Lab 1 | [`city-explorer/`](city-explorer/) | City Explorer – pagină web statică (HTML + CSS) |
+| Lab 2 | [`app/`](app/) | Proiect Vite + React; exerciții JavaScript (`map`, `filter`, `reduce`, `fetch`) afișate în consolă |
+| Lab 3 | [`app/`](app/) | Componente React, props și state: carduri, rezumat, marcare, formular de adăugare, ștergere |
 
 ## Rulare
 
-Deschide fișierul `index.html` din folderul laboratorului în browser.
+- **Lab 1:** deschide fișierul `index.html` din `city-explorer/` în browser.
+- **Lab 2–3:** în folderul `app/`, rulează `npm install`, apoi `npm run dev` și deschide http://localhost:5173.
 
 ## Utilizarea AI
 
